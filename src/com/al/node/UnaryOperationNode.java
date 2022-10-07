@@ -10,6 +10,8 @@ public class UnaryOperationNode extends Node {
 		super();
 		this.operatorToken = operatorToken;
 		this.operatorNode = operatorNode;
+		startPosition = operatorToken.start;
+		endPosition = operatorNode.endPosition;
 	}
 
 
